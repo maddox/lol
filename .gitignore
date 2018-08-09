@@ -1,0 +1,10 @@
+npm-debug.log*
+/build
+.vscode
+.sass-cache
+node_modules/
+/src/styles/css/*
+yarn-error.log
+.s3cfg
+.jshintrc
+yarn.lock
