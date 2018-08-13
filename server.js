@@ -7,7 +7,7 @@ const port = process.env.PORT || 3001
 
 app.get('/', (req, res) => {
   console.log("sending another lol")
-  res.send("L O L!")
+  res.send("Lawlz people!")
 })
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
