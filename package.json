@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.3",
-    "noodle": "maddox/noodle#it"
+    "noodle-it": "^0.0.2"
   }
 }
