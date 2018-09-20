@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001
 
 
 app.get('/', (req, res) => {
-  console.log("sending another lol and la la la")
+  console.log("sending another lol")
   res.send("lolasdf")
 })
 
