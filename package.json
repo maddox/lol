@@ -1,15 +1,15 @@
 {
   "dependencies": {
-    "concurrently": "^4.0.1",
-    "express": "^4.16.3",
-    "noodle-iridescent-cli": "^1.0.2"
+    "express": "^4.16.3"
   },
   "scripts": {
     "start": "node server",
     "dev": "concurrently --kill-others-on-fail \"./node_modules/.bin/iridescent --owner maddox --repo lol --branch iri --token a31e7e7d6a260a998fb469c57c474d2322f8e08e --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh\" \"yarn start\""
   },
   "devDependencies": {
-    "nodemon": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4",
+    "noodle-iridescent-cli": "^1.0.2",
     "noodle-it": "^0.0.2"
   }
 }
