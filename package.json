@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "express": "^4.16.3"
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "noodle-iridescent-cli": "^1.0.2"
   },
   "scripts": {
     "start": "node server",
