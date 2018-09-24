@@ -4,7 +4,7 @@
   },
   "scripts": {
     "start": "node server",
-    "dev": "concurrently --kill-others-on-fail \"./node_modules/.bin/iridescent --owner maddox --repo lol --branch iri --token a31e7e7d6a260a998fb469c57c474d2322f8e08e --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh\" \"yarn start\""
+    "dev": "concurrently --kill-others-on-fail \"./node_modules/.bin/iridescent --owner maddox --repo lol --branch iri --token a31e7e7d6a260a998fb469c57c474d2322f8e08e --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh\" \"nodemon server\""
   },
   "devDependencies": {
     "concurrently": "^4.0.1",
