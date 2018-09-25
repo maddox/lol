@@ -12,7 +12,7 @@
     "concurrently": "^4.0.1",
     "nodemon": "^1.18.4",
     "noodle-iridescent-cli": "^1.0.2",
-    "noodle-it": "^0.0.2"
+    "noodle-it": "^0.0.4"
   },
   "now": {
     "type": "docker",
