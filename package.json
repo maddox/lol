@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server",
     "dev": "concurrently --kill-others-on-fail 'yarn iridescent' 'yarn server'",
-    "iridescent": "/usr/local/bin/iridescent --debug --owner the-government --repo lol --branch iri --token $GITHUB_TOKEN --pusher 82262d9955f278d93d51 --host http://localhost:4000",
+    "iridescent": "iridescent --debug --owner the-government --repo lol --branch iri --token $GITHUB_TOKEN --pusher 82262d9955f278d93d51 --host https://public-noodle.now.sh",
     "server": "nodemon server"
   },
   "devDependencies": {
